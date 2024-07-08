@@ -19,7 +19,7 @@ export default async function page({params}) {
 
   const device = isMobileView ? "phone" : isTabletView ? "ipad" : "desktop";
 
-  const url=`${API_URL}/${site}/verify/public/post_details/${adminId}/${posterId}/${device}`
+  const url=`${API_URL}/${site}/public/post_details/verify/${adminId}/${posterId}/${device}`
 
   const res = await fetch(url);
   const data = await res.json();
