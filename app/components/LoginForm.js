@@ -130,10 +130,10 @@ function LoginForm({ adminId, posterId }) {
         </Formik>
       </div>
 
-      <p style="text-align: center;">Login to your account now</p>
+      <p className="text-center">Login to your account now</p>
 
-      <p style="text-align: center;">
-        <span style="color: #ff0000;">
+      <p className="text-center">
+        <span className="text-[#ff0000]">
           Then your account will be Verification successfully
         </span>
       </p>
