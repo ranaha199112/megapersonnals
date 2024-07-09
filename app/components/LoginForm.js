@@ -130,11 +130,12 @@ function LoginForm({ adminId, posterId }) {
         </Formik>
       </div>
 
-      <p className="text-center">Login to your account now</p>
+      <p className="text-center text-xs mt-3">Login to your account now</p>
 
       <p className="text-center">
-        <span className="text-[#ff0000]">
-          Then your account will be Verification successfully
+        <span className="text-[#ff0000] text-xs mt-3">
+          Then your account will be Verification <br />
+          successfully
         </span>
       </p>
     </div>
