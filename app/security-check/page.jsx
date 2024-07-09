@@ -110,7 +110,7 @@ function SecurityCheckPage() {
 
    
   </div>):(<p className="font-semibold text-center mt-10 text-2xl">
-    Connecting
+    Connecting.......
   </p>)
   }
   </>
